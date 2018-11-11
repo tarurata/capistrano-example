@@ -7,7 +7,7 @@ set :default_stage, "production"
 set :ssh_options, {:forward_agent => true}
 
 set :application, 'capistrano_example'
-set :repo_url, 'git@github.com:tarurata/capistrano-example.git'
+set :repo_url, 'git@github.com:davzie/capistrano-example.git'
 set :user, "wata"
 
 # Put files which you do not want it to be overwritten when deploy.
