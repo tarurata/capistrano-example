@@ -1,0 +1,210 @@
+# Logfile created on 2018-11-11 13:37:53 +0900 by logger.rb/61378
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-11-11 13:37:53 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [680f9bbe] Running /usr/bin/env mkdir -p /tmp as wata@178.128.50.79
+ DEBUG [680f9bbe] Command: /usr/bin/env mkdir -p /tmp
+  INFO [884de4a4] Finished in 1.345 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-capistrano_example-production-muratawataru.sh 0.0%
+  INFO Uploading /tmp/git-ssh-capistrano_example-production-muratawataru.sh 100.0%
+  INFO [ac8b33ed] Running /usr/bin/env chmod 700 /tmp/git-ssh-capistrano_example-production-muratawataru.sh as wata@178.128.50.79
+ DEBUG [ac8b33ed] Command: /usr/bin/env chmod 700 /tmp/git-ssh-capistrano_example-production-muratawataru.sh
+  INFO [ca4d55b6] Finished in 0.359 seconds with exit status 0 (successful).
+  INFO [d90cc452] Running /usr/bin/env git ls-remote git@github.com:tarurata/capistrano-example.git HEAD as wata@178.128.50.79
+ DEBUG [d90cc452] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-capistrano_example-production-muratawataru.sh" ; /usr/bin/env git ls-remote git@github.com:tarurata/capistrano-example.git HEAD )
+ DEBUG [792e165f] 	Warning: Permanently added 'github.com,13.250.177.223' (RSA) to the list of known hosts.
+ DEBUG [792e165f] 	Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-11-11 13:45:08 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [5d52d96e] Running /usr/bin/env mkdir -p /tmp as wata@178.128.50.79
+ DEBUG [5d52d96e] Command: /usr/bin/env mkdir -p /tmp
+  INFO [b4bd5b49] Finished in 1.337 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-capistrano_example-production-muratawataru.sh 0.0%
+  INFO Uploading /tmp/git-ssh-capistrano_example-production-muratawataru.sh 100.0%
+  INFO [d0c91a8d] Running /usr/bin/env chmod 700 /tmp/git-ssh-capistrano_example-production-muratawataru.sh as wata@178.128.50.79
+ DEBUG [d0c91a8d] Command: /usr/bin/env chmod 700 /tmp/git-ssh-capistrano_example-production-muratawataru.sh
+  INFO [4a092656] Finished in 0.319 seconds with exit status 0 (successful).
+  INFO [e8af255b] Running /usr/bin/env git ls-remote git@github.com:tarurata/capistrano-example.git HEAD as wata@178.128.50.79
+ DEBUG [e8af255b] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-capistrano_example-production-muratawataru.sh" ; /usr/bin/env git ls-remote git@github.com:tarurata/capistrano-example.git HEAD )
+ DEBUG [d28a5106] 	Warning: Permanently added the RSA host key for IP address '13.229.188.59' to the list of known hosts.
+ DEBUG [d28a5106] 	Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-11-11 13:55:22 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [704aa1f0] Running /usr/bin/env mkdir -p /tmp as wata@178.128.50.79
+ DEBUG [704aa1f0] Command: /usr/bin/env mkdir -p /tmp
+  INFO [9eea4f14] Finished in 1.451 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-capistrano_example-production-muratawataru.sh 0.0%
+  INFO Uploading /tmp/git-ssh-capistrano_example-production-muratawataru.sh 100.0%
+  INFO [4d78c224] Running /usr/bin/env chmod 700 /tmp/git-ssh-capistrano_example-production-muratawataru.sh as wata@178.128.50.79
+ DEBUG [4d78c224] Command: /usr/bin/env chmod 700 /tmp/git-ssh-capistrano_example-production-muratawataru.sh
+  INFO [407a9d68] Finished in 0.330 seconds with exit status 0 (successful).
+  INFO [9c23833e] Running /usr/bin/env git ls-remote git@github.com:tarurata/capistrano-example.git HEAD as wata@178.128.50.79
+ DEBUG [9c23833e] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-capistrano_example-production-muratawataru.sh" ; /usr/bin/env git ls-remote git@github.com:tarurata/capistrano-example.git HEAD )
+ DEBUG [b9d03f8f] 	Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-11-11 14:03:39 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [297c7136] Running /usr/bin/env mkdir -p /tmp as wata@178.128.50.79
+ DEBUG [297c7136] Command: /usr/bin/env mkdir -p /tmp
+  INFO [f5d911cb] Finished in 1.305 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-capistrano_example-production-muratawataru.sh 0.0%
+  INFO Uploading /tmp/git-ssh-capistrano_example-production-muratawataru.sh 100.0%
+  INFO [b775a32a] Running /usr/bin/env chmod 700 /tmp/git-ssh-capistrano_example-production-muratawataru.sh as wata@178.128.50.79
+ DEBUG [b775a32a] Command: /usr/bin/env chmod 700 /tmp/git-ssh-capistrano_example-production-muratawataru.sh
+  INFO [efa5451f] Finished in 0.336 seconds with exit status 0 (successful).
+  INFO [4e482da3] Running /usr/bin/env git ls-remote git@github.com:tarurata/capistrano-example.git HEAD as wata@178.128.50.79
+ DEBUG [4e482da3] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-capistrano_example-production-muratawataru.sh" ; /usr/bin/env git ls-remote git@github.com:tarurata/capistrano-example.git HEAD )
+ DEBUG [a9acf714] 	fatal: bad config file line 5 in /home/wata/.gitconfig
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-11-11 14:04:27 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [0d265248] Running /usr/bin/env mkdir -p /tmp as wata@178.128.50.79
+ DEBUG [0d265248] Command: /usr/bin/env mkdir -p /tmp
+  INFO [70c42c4c] Finished in 1.363 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-capistrano_example-production-muratawataru.sh 0.0%
+  INFO Uploading /tmp/git-ssh-capistrano_example-production-muratawataru.sh 100.0%
+  INFO [53cd3891] Running /usr/bin/env chmod 700 /tmp/git-ssh-capistrano_example-production-muratawataru.sh as wata@178.128.50.79
+ DEBUG [53cd3891] Command: /usr/bin/env chmod 700 /tmp/git-ssh-capistrano_example-production-muratawataru.sh
+  INFO [64931ae3] Finished in 0.333 seconds with exit status 0 (successful).
+  INFO [4fbc909c] Running /usr/bin/env git ls-remote git@github.com:tarurata/capistrano-example.git HEAD as wata@178.128.50.79
+ DEBUG [4fbc909c] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-capistrano_example-production-muratawataru.sh" ; /usr/bin/env git ls-remote git@github.com:tarurata/capistrano-example.git HEAD )
+ DEBUG [a6b03d91] 	ssh: Could not resolve hostname github: Name or service not known
+ DEBUG [a6b03d91] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-11-11 14:18:15 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [346610f4] Running /usr/bin/env mkdir -p /tmp as wata@178.128.50.79
+ DEBUG [346610f4] Command: /usr/bin/env mkdir -p /tmp
+  INFO [df9f90e2] Finished in 1.327 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-capistrano_example-production-muratawataru.sh 0.0%
+  INFO Uploading /tmp/git-ssh-capistrano_example-production-muratawataru.sh 100.0%
+  INFO [deb7491e] Running /usr/bin/env chmod 700 /tmp/git-ssh-capistrano_example-production-muratawataru.sh as wata@178.128.50.79
+ DEBUG [deb7491e] Command: /usr/bin/env chmod 700 /tmp/git-ssh-capistrano_example-production-muratawataru.sh
+  INFO [6e1986f6] Finished in 0.336 seconds with exit status 0 (successful).
+  INFO [959fc589] Running /usr/bin/env git ls-remote git@github.com:tarurata/capistrano-example.git HEAD as wata@178.128.50.79
+ DEBUG [959fc589] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-capistrano_example-production-muratawataru.sh" ; /usr/bin/env git ls-remote git@github.com:tarurata/capistrano-example.git HEAD )
+ DEBUG [0a05e750] 	1c87026735f80b5c1911996cc9f4d6f949f24d03	HEAD
+  INFO [0a05e750] Finished in 2.962 seconds with exit status 0 (successful).
+  INFO [23b9c09e] Running /usr/bin/env mkdir -p /sites/capistrano_example/shared /sites/capistrano_example/releases as wata@178.128.50.79
+ DEBUG [23b9c09e] Command: /usr/bin/env mkdir -p /sites/capistrano_example/shared /sites/capistrano_example/releases
+ DEBUG [f5c678ef] 	mkdir: cannot create directory ‘/sites’: Permission denied
+mkdir: cannot create directory ‘/sites’: Permission denied
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-11-11 14:19:33 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [bc019c00] Running /usr/bin/env mkdir -p /tmp as wata@178.128.50.79
+ DEBUG [bc019c00] Command: /usr/bin/env mkdir -p /tmp
+  INFO [232fe4f3] Finished in 1.410 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-capistrano_example-production-muratawataru.sh 0.0%
+  INFO Uploading /tmp/git-ssh-capistrano_example-production-muratawataru.sh 100.0%
+  INFO [ba5b8159] Running /usr/bin/env chmod 700 /tmp/git-ssh-capistrano_example-production-muratawataru.sh as wata@178.128.50.79
+ DEBUG [ba5b8159] Command: /usr/bin/env chmod 700 /tmp/git-ssh-capistrano_example-production-muratawataru.sh
+  INFO [6e56017b] Finished in 0.333 seconds with exit status 0 (successful).
+  INFO [8e746551] Running /usr/bin/env git ls-remote git@github.com:tarurata/capistrano-example.git HEAD as wata@178.128.50.79
+ DEBUG [8e746551] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-capistrano_example-production-muratawataru.sh" ; /usr/bin/env git ls-remote git@github.com:tarurata/capistrano-example.git HEAD )
+ DEBUG [a6d2e06b] 	1c87026735f80b5c1911996cc9f4d6f949f24d03	HEAD
+  INFO [a6d2e06b] Finished in 2.965 seconds with exit status 0 (successful).
+  INFO [67ec788f] Running /usr/bin/env mkdir -p /sites/capistrano_example/shared /sites/capistrano_example/releases as wata@178.128.50.79
+ DEBUG [67ec788f] Command: /usr/bin/env mkdir -p /sites/capistrano_example/shared /sites/capistrano_example/releases
+  INFO [368432f2] Finished in 0.343 seconds with exit status 0 (successful).
+  INFO [5c61667e] Running /usr/bin/env mkdir -p /sites/capistrano_example/shared/my_shared_directory as wata@178.128.50.79
+ DEBUG [5c61667e] Command: /usr/bin/env mkdir -p /sites/capistrano_example/shared/my_shared_directory
+  INFO [3c1ad873] Finished in 0.336 seconds with exit status 0 (successful).
+ DEBUG [9882b931] Running [ -f /sites/capistrano_example/current/REVISION ] as wata@178.128.50.79
+ DEBUG [9882b931] Command: [ -f /sites/capistrano_example/current/REVISION ]
+ DEBUG [88f63a1a] Finished in 0.335 seconds with exit status 1 (failed).
+ DEBUG [7215c88e] Running [ -f /sites/capistrano_example/repo/HEAD ] as wata@178.128.50.79
+ DEBUG [7215c88e] Command: [ -f /sites/capistrano_example/repo/HEAD ]
+ DEBUG [d78e8109] Finished in 0.356 seconds with exit status 1 (failed).
+ DEBUG [7c3656ea] Running if test ! -d /sites/capistrano_example; then echo "Directory does not exist '/sites/capistrano_example'" 1>&2; false; fi as wata@178.128.50.79
+ DEBUG [7c3656ea] Command: if test ! -d /sites/capistrano_example; then echo "Directory does not exist '/sites/capistrano_example'" 1>&2; false; fi
+ DEBUG [c2ad9d4e] Finished in 0.333 seconds with exit status 0 (successful).
+  INFO [3bb3a60a] Running /usr/bin/env git clone --mirror git@github.com:tarurata/capistrano-example.git /sites/capistrano_example/repo as wata@178.128.50.79
+ DEBUG [3bb3a60a] Command: cd /sites/capistrano_example && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-capistrano_example-production-muratawataru.sh" ; /usr/bin/env git clone --mirror git@github.com:tarurata/capistrano-example.git /sites/capistrano_example/repo )
+ DEBUG [2a18640b] 	Cloning into bare repository '/sites/capistrano_example/repo'...
+  INFO [2a18640b] Finished in 3.337 seconds with exit status 0 (successful).
+ DEBUG [aa033e7c] Running if test ! -d /sites/capistrano_example/repo; then echo "Directory does not exist '/sites/capistrano_example/repo'" 1>&2; false; fi as wata@178.128.50.79
+ DEBUG [aa033e7c] Command: if test ! -d /sites/capistrano_example/repo; then echo "Directory does not exist '/sites/capistrano_example/repo'" 1>&2; false; fi
+ DEBUG [73fed018] Finished in 0.347 seconds with exit status 0 (successful).
+  INFO [216e4cd0] Running /usr/bin/env git remote set-url origin git@github.com:tarurata/capistrano-example.git as wata@178.128.50.79
+ DEBUG [216e4cd0] Command: cd /sites/capistrano_example/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-capistrano_example-production-muratawataru.sh" ; /usr/bin/env git remote set-url origin git@github.com:tarurata/capistrano-example.git )
+  INFO [27154d9d] Finished in 0.340 seconds with exit status 0 (successful).
+  INFO [75f331e2] Running /usr/bin/env git remote update --prune as wata@178.128.50.79
+ DEBUG [75f331e2] Command: cd /sites/capistrano_example/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-capistrano_example-production-muratawataru.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [cbb623b5] 	Fetching origin
+  INFO [cbb623b5] Finished in 3.005 seconds with exit status 0 (successful).
+ DEBUG [3fd5b82b] Running if test ! -d /sites/capistrano_example/repo; then echo "Directory does not exist '/sites/capistrano_example/repo'" 1>&2; false; fi as wata@178.128.50.79
+ DEBUG [3fd5b82b] Command: if test ! -d /sites/capistrano_example/repo; then echo "Directory does not exist '/sites/capistrano_example/repo'" 1>&2; false; fi
+ DEBUG [2a75f49c] Finished in 0.328 seconds with exit status 0 (successful).
+  INFO [b34a974b] Running /usr/bin/env mkdir -p /sites/capistrano_example/releases/20181111051939 as wata@178.128.50.79
+ DEBUG [b34a974b] Command: cd /sites/capistrano_example/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-capistrano_example-production-muratawataru.sh" ; /usr/bin/env mkdir -p /sites/capistrano_example/releases/20181111051939 )
+  INFO [8ae5390d] Finished in 0.351 seconds with exit status 0 (successful).
+  INFO [c6f547ad] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /sites/capistrano_example/releases/20181111051939 as wata@178.128.50.79
+ DEBUG [c6f547ad] Command: cd /sites/capistrano_example/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-capistrano_example-production-muratawataru.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /sites/capistrano_example/releases/20181111051939 )
+  INFO [b670c14b] Finished in 0.350 seconds with exit status 0 (successful).
+ DEBUG [0b8a9e8a] Running if test ! -d /sites/capistrano_example/repo; then echo "Directory does not exist '/sites/capistrano_example/repo'" 1>&2; false; fi as wata@178.128.50.79
+ DEBUG [0b8a9e8a] Command: if test ! -d /sites/capistrano_example/repo; then echo "Directory does not exist '/sites/capistrano_example/repo'" 1>&2; false; fi
+ DEBUG [45ad6a01] Finished in 0.338 seconds with exit status 0 (successful).
+ DEBUG [f0639de1] Running /usr/bin/env git rev-list --max-count=1 master as wata@178.128.50.79
+ DEBUG [f0639de1] Command: cd /sites/capistrano_example/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-capistrano_example-production-muratawataru.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [6da30c9d] 	1c87026735f80b5c1911996cc9f4d6f949f24d03
+ DEBUG [6da30c9d] Finished in 0.367 seconds with exit status 0 (successful).
+ DEBUG [832443ea] Running if test ! -d /sites/capistrano_example/releases/20181111051939; then echo "Directory does not exist '/sites/capistrano_example/releases/20181111051939'" 1>&2; false; fi as wata@178.128.50.79
+ DEBUG [832443ea] Command: if test ! -d /sites/capistrano_example/releases/20181111051939; then echo "Directory does not exist '/sites/capistrano_example/releases/20181111051939'" 1>&2; false; fi
+ DEBUG [5a8c2ed9] Finished in 0.338 seconds with exit status 0 (successful).
+  INFO [14e0542f] Running /usr/bin/env echo "1c87026735f80b5c1911996cc9f4d6f949f24d03" > REVISION as wata@178.128.50.79
+ DEBUG [14e0542f] Command: cd /sites/capistrano_example/releases/20181111051939 && /usr/bin/env echo "1c87026735f80b5c1911996cc9f4d6f949f24d03" > REVISION
+  INFO [cb282b1e] Finished in 0.333 seconds with exit status 0 (successful).
+  INFO [77a187a8] Running /usr/bin/env mkdir -p /sites/capistrano_example/releases/20181111051939 as wata@178.128.50.79
+ DEBUG [77a187a8] Command: /usr/bin/env mkdir -p /sites/capistrano_example/releases/20181111051939
+  INFO [80b0895b] Finished in 0.327 seconds with exit status 0 (successful).
+ DEBUG [3837559f] Running [ -L /sites/capistrano_example/releases/20181111051939/my_shared_directory ] as wata@178.128.50.79
+ DEBUG [3837559f] Command: [ -L /sites/capistrano_example/releases/20181111051939/my_shared_directory ]
+ DEBUG [3d2ffc03] Finished in 0.335 seconds with exit status 1 (failed).
+ DEBUG [5bfc468d] Running [ -d /sites/capistrano_example/releases/20181111051939/my_shared_directory ] as wata@178.128.50.79
+ DEBUG [5bfc468d] Command: [ -d /sites/capistrano_example/releases/20181111051939/my_shared_directory ]
+ DEBUG [79cdbcf4] Finished in 0.342 seconds with exit status 1 (failed).
+  INFO [dbc0bca2] Running /usr/bin/env ln -s /sites/capistrano_example/shared/my_shared_directory /sites/capistrano_example/releases/20181111051939/my_shared_directory as wata@178.128.50.79
+ DEBUG [dbc0bca2] Command: /usr/bin/env ln -s /sites/capistrano_example/shared/my_shared_directory /sites/capistrano_example/releases/20181111051939/my_shared_directory
+  INFO [b6cb9054] Finished in 0.330 seconds with exit status 0 (successful).
+  INFO [3161a9f9] Running /usr/bin/env hostname as wata@178.128.50.79
+ DEBUG [3161a9f9] Command: /usr/bin/env hostname
+ DEBUG [8fe2b0d2] 	capistrano
+  INFO [8fe2b0d2] Finished in 0.368 seconds with exit status 0 (successful).
+  INFO [7c46a74a] Running echo Thisistest as wata@178.128.50.79
+ DEBUG [7c46a74a] Command: echo Thisistest
+ DEBUG [8d6467d9] 	Thisistest
+  INFO [8d6467d9] Finished in 0.342 seconds with exit status 0 (successful).
+  INFO [1ea1ce5f] Running /usr/bin/env ln -s /sites/capistrano_example/releases/20181111051939 /sites/capistrano_example/releases/current as wata@178.128.50.79
+ DEBUG [1ea1ce5f] Command: /usr/bin/env ln -s /sites/capistrano_example/releases/20181111051939 /sites/capistrano_example/releases/current
+  INFO [c55a845c] Finished in 0.198 seconds with exit status 0 (successful).
+  INFO [8728dd81] Running /usr/bin/env mv /sites/capistrano_example/releases/current /sites/capistrano_example as wata@178.128.50.79
+ DEBUG [8728dd81] Command: /usr/bin/env mv /sites/capistrano_example/releases/current /sites/capistrano_example
+  INFO [73314263] Finished in 0.351 seconds with exit status 0 (successful).
+ DEBUG [5f93fe76] Running /usr/bin/env ls -x /sites/capistrano_example/releases as wata@178.128.50.79
+ DEBUG [5f93fe76] Command: /usr/bin/env ls -x /sites/capistrano_example/releases
+ DEBUG [41949cd0] 	20181111051939
+ DEBUG [41949cd0] Finished in 0.353 seconds with exit status 0 (successful).
+ DEBUG [f13b8410] Running if test ! -d /sites/capistrano_example/releases; then echo "Directory does not exist '/sites/capistrano_example/releases'" 1>&2; false; fi as wata@178.128.50.79
+ DEBUG [f13b8410] Command: if test ! -d /sites/capistrano_example/releases; then echo "Directory does not exist '/sites/capistrano_example/releases'" 1>&2; false; fi
+ DEBUG [cd5e9a79] Finished in 0.342 seconds with exit status 0 (successful).
+  INFO [824dd34f] Running /usr/bin/env echo "Branch master (at 1c87026735f80b5c1911996cc9f4d6f949f24d03) deployed as release 20181111051939 by muratawataru" >> /sites/capistrano_example/revisions.log as wata@178.128.50.79
+ DEBUG [824dd34f] Command: cd /sites/capistrano_example/releases && /usr/bin/env echo "Branch master (at 1c87026735f80b5c1911996cc9f4d6f949f24d03) deployed as release 20181111051939 by muratawataru" >> /sites/capistrano_example/revisions.log
+  INFO [251dd637] Finished in 0.354 seconds with exit status 0 (successful).

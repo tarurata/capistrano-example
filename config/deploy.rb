@@ -1,10 +1,10 @@
 # config valid only for Capistrano 3.1
 # require 'capistrano/ext/multistage'
-lock '3.5.0'
+lock '3.11.0'
 
 set :stages, ["production"]
 set :default_stage, "production"
-set :ssh_options, {:forward_agent => true}
+#set :ssh_options, {:forward_agent => true}
 
 set :application, 'capistrano_example'
 set :repo_url, 'git@github.com:tarurata/capistrano-example.git'

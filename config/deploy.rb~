@@ -1,14 +1,14 @@
 # config valid only for Capistrano 3.1
 # require 'capistrano/ext/multistage'
-lock '3.5.0'
+lock '3.11.0'
 
 set :stages, ["production"]
 set :default_stage, "production"
 set :ssh_options, {:forward_agent => true}
 
 set :application, 'capistrano_example'
-set :repo_url, 'git@github.com:davzie/capistrano-example.git'
-set :user, "wata"
+set :repo_url, 'git@github.com:tarurata/capistrano-example.git'
+set :user, "tarurata"
 
 # Put files which you do not want it to be overwritten when deploy.
 # When deploy, make symbolic link to directries under this directory.
